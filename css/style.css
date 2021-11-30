@@ -1,12 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+}
+
+
+a:focus{
+	outline: 1px solid #ccc;
+}
+
+a:focus, a:hover{
+	background: #ccc;
+	color: #111;
+}
+
+.cabecalho, .rodape {
+    position: relative;
+    text-align: center;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
 .cabecalho_texto{
     height: 2em;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    font-size: 2rem;
 }
+
+.banner {
+    background-image: url(../imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    opacity: 0.9;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.titulo_img {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.texto_img {
+    width: 90%;
+    font-size: 1.4rem;
+}
+
+.blackwhite {
+    filter: grayscale(1);
+}
+
+.acessibilidade {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.img2 {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+}
+
+
+
