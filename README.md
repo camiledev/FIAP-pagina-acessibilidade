@@ -1,3 +1,6 @@
+
+![teste2](https://github.com/user-attachments/assets/8c97d661-5073-4443-b912-177c49596539)
+
 <h1>Acessibilidade</h1>
 
 Aqui falamos sobre acessibilidade e à criamos com as acessibilidades e boas práticas:
